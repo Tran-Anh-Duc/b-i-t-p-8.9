@@ -1,0 +1,26 @@
+th{
+    text-align: center;
+    background: red;
+    color: #dddddd;
+    font-family: 'Patua One', cursive;
+    font-size: 16px;
+    font-weight: 400;
+   border-color: aliceblue;
+}
+
+
+table{
+  border-collapse: collapse;
+    width: 100%;
+}
+td,th{
+    padding: 20px;
+    border: 1px solid black;
+}
+td{
+    font-weight: 400;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid white;
+}

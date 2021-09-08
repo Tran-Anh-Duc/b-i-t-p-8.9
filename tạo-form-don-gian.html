@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tạo form đơn giản với html</title>
+</head>
+<style>
+
+    table{
+        border: 10px solid #64edd2;
+    }
+     td{
+        width: 100px;
+        height: 30px;
+    }
+    .header{
+        background: darkorange;
+        color: white;
+    }
+    .add{
+        color: blue;
+        text-align: right;
+    }
+    span{
+        color: darkorange;
+    }
+</style>
+<body>
+
+<form action="">
+    <table >
+        <tr class="header">
+            <th colspan="4">SỞ THÍCH CỦA BẠN</th>
+        </tr>
+        <tr>
+            <td class="add">họ và tên:</td>
+            <td colspan="3"><input type="textbox" value=""></td>
+        </tr>
+        <tr>
+            <td class="add">email:</td>
+            <td colspan="3"><input type="text" value=""></td>
+        </tr>
+        <tr>
+            <td class="add">sở thích</td>
+            <td><input type="checkbox" value=""><span>thể thao</span></td>
+            <td><input type="checkbox" value=""><span>âm nhạc</span></td>
+            <td><input type="checkbox" value=""><span>đọc sách</span></td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td> <input type="checkbox" value=""><span>lướt web </span> </td>
+            <td><input type="checkbox" value=""><span>chơi game</span></td>
+            <td><input type="checkbox" value=""><span>điện ảnh</span></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="checkbox" value=""><span>du lịch</span></td>
+            <td colspan="2"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="submit" value="gửi thông tin"></td>
+            <td><input type="reset" value="nhập lại"></td>
+        </tr>
+    </table>
+</form>
+
+
+</body>
+</html>
+
+

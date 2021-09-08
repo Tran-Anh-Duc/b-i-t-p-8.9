@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tạo phiếu Market Research survey </title>
+</head>
+<style>
+    body {
+        font-weight: bold;
+    }
+    td{
+        width: 150px;
+        height:40px;
+        text-align: center;
+        padding: 8px;
+    }
+    .text{
+        text-align: left ;
+    }
+    .add{
+        background: #a770db;
+    }
+    .address{
+        background: #64edd2;
+    }
+</style>
+<body>
+<h2>Market research survey</h2>
+<p>Please take a few moments to complete this satisfaction survey.</p><br>
+<form action="">
+    <p>what is your age range?</p>
+    <select style="width: 450px; border-radius: 4px; font-weight: bold">
+        <option value="">18-24</option>
+        <option value="">25-34</option>
+        <option value="">35-50</option>
+        <option value="">50+</option>
+    </select>
+    <p>what is your yearly income range</p>
+    <select style="width: 450px; border-radius: 4px; font-weight: bold">
+        <option value="">0-25000</option>
+        <option value="">25000-50000</option>
+        <option value="">50000-100000</option>
+        <option value="">100000+</option>
+    </select>
+    <p>gender Identity</p>
+    <input type="radio" value="" name="gender">Male <br>
+    <input type="radio" value="" name="gender">Female <br>
+    <input type="radio" value="" name="gender">Nonbinary <br>
+    <input type="radio" value="" name="gender"> Other <br>
+    <p>Which of the following products have your purchased in the last 2 months. Please check all that apply.</p>
+    <input type="checkbox" value="" name="">Product 1 <br>
+    <input type="checkbox" value="" name="">Product 2 <br>
+    <input type="checkbox" value="" name="">Product 3
+    <p>How often would you use our new product?</p>
+    <input type="radio" name="date">Daily <br>
+    <input type="radio" name="date">Weekly <br>
+    <input type="radio" name="date">Monthly
+    <p>What would you pay for the new product?</p>
+    $ <input type="number" value="" style="width:100px ;border-style: outset ">
+    <span>.</span>
+    <input type="number" value="" style="width:20px ;border-style: outset">
+    <p>what features would you like to see in the new product</p>
+    <textarea cols="150" rows="10"></textarea>
+    <p>please rate your level of agreement with the following startements</p>
+    <table border="1">
+        <tr>
+            <td class="add" ></td>
+            <td class="add">strongly disagree</td>
+            <td class="add">disagree</td>
+            <td class="add">agree</td>
+            <td class="add">strongly agree</td>
+        </tr>
+        <tr>
+            <td class="text">Our products are priced fairly</td>
+            <td ><input type="radio" name="number">1</td>
+            <td ><input type="radio" name="number">2</td>
+            <td  ><input type="radio" name="number">3</td>
+            <td  ><input type="radio" name="number">4</td>
+        </tr>
+        <tr>
+            <td class="address" class="text">Our products are high quality</td>
+            <td class="address"><input type="radio" name="number">1</td>
+            <td class="address"><input type="radio" name="number">2</td>
+            <td class="address"><input type="radio" name="number">3</td>
+            <td class="address"><input type="radio" name="number">4</td>
+        </tr>
+        <tr>
+            <td  class="text">you would recommend our product toa friend or coworker</td>
+            <td><input type="radio" name="number">1</td>
+            <td><input type="radio" name="number">2</td>
+            <td><input type="radio" name="number">3</td>
+            <td><input type="radio" name="number">4</td>
+        </tr>
+
+    </table>
+    <input type="submit" value="submit" style="font-weight: bold">
+
+</form>
+
+</body>
+</html>
